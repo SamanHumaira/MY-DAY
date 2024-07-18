@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>NOTES</title>
+</head>
+
+<body>
+    <nav class="flex justify-between p-5 bg-gray-800 text-white">
+        <div class="flex">
+            <h1 class="font-bold text-2xl cursor-pointer w-full">LOGO</h1>
+            <ul class="flex mr-10">
+                <li class="mx-2 text-white hover:text-gray-100 cursor-pointer ml-8">Home</li>
+                <li class="mx-2 text-white hover:text-gray-100 cursor-pointer">Notes</li>
+                <li class="mx-2 text-white hover:text-gray-100 cursor-pointer">Routine</li>
+            </ul>
+            <!-- <button class="px-4 py-2 bg-indigo-500 rounded-full text-white hover:bg-indigo-700 duration-300">HELLO</button> -->
+        </div>
+    </nav>
+    <section class="p-16">
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900">MY NOTE</label>
+        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Write your thoughts here..."></textarea>
+       <button class="bg-slate-300 rounded-md px-4 py-2 mt-2">SAVE</button>
+       
+    </section>
+    <section>
+        <footer class="p-5 bg-gray-800 text-white">
+            <p class="text-center">Copyright2024MyDAY</p>
+        </footer>
+    </section>
+</body>
+
+</html>
